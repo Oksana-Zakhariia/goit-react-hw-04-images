@@ -37,6 +37,7 @@ export function App() {
       try {
         setLoading(true);
         setError(null);
+        setShowLoadButton(false);
         if (name === '') {
           return;
         }
