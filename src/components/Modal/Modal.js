@@ -22,7 +22,6 @@ export const Modal = ({ onClose, children }) => {
         onClose();
       }
     };
-
     window.addEventListener('keydown', handleKeyDown);
 
     return () => {
